@@ -16,7 +16,7 @@ app.engine(
   })
 );
 app.set("view engine", "handlebars");
-const port = process.env.port || 3000;
+const port = process.env.port || 3000
 
 // app.get("/", (req, res) => {
 //   res.type("text/plain");
